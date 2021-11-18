@@ -1,0 +1,108 @@
+@import "bootstrap";
+@import "font-awesome";
+
+@import "components/*";
+@import "powertable";
+
+.flex { display: flex }
+.justify-between { justify-content: space-between }
+
+// need to put on the TH elements because of browser limitations
+// see: https://caniuse.com/#feat=css-sticky
+.table-sticky-header thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  z-index: 1;
+  background-color: inherit;
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    bottom: -3px;
+    background: linear-gradient(
+      to bottom,
+      rgba(211,211,211,.8),
+      transparent
+    );
+    z-index: 10;
+  }
+}
+.overlap-shadow-top {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    top: -3px;
+    background: linear-gradient(
+      to top,
+      rgba(211,211,211,.8),
+      transparent
+    );
+    z-index: 10;
+  }
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll !important;
+  max-height: 100%;
+}
+/* IE10+ CSS styles */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .overflow-y-scroll {
+    overflow-y: auto !important;
+    padding-right: 18px;
+  }
+}
+
+
+/// Mixin to customize scrollbars
+/// Beware, this does not work in all browsers
+/// @author Hugo Giraudel
+/// @param {Length} $size - Horizontal scrollbar's height and vertical scrollbar's width
+/// @param {Color} $foreground-color - Scrollbar's color
+/// @param {Color} $background-color [mix($foreground-color, white, 50%)] - Scrollbar's color
+/// @example scss - Scrollbar styling
+///   @include scrollbars(.5em, slategray);
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white,  50%)) {
+  // For Google Chrome and Safari
+  &::-webkit-scrollbar {
+    width:  $size;
+    height: $size;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $foreground-color;
+    border-radius: 6px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: $background-color;
+  }
+  &::-webkit-scrollbar-corner {
+    background-color: $background-color;
+  }
+
+  // For Firefox
+  & {
+    scrollbar-width: thin;
+    scrollbar-color: $foreground-color $background-color;
+  }
+
+  // For Internet Explorer
+  & {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: darken($background-color, 3%);
+    scrollbar-arrow-color: $foreground-color;
+    scrollbar-shadow-color: $background-color;
+  }
+}
+.overflow-y-scroll {
+  @include scrollbars(.5em, slategray, white);
+}
+

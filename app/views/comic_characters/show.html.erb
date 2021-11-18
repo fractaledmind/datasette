@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Universe:</strong>
+  <%= @comic_character.universe %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @comic_character.name %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @comic_character.url %>
+</p>
+
+<p>
+  <strong>Appearances:</strong>
+  <%= @comic_character.appearances %>
+</p>
+
+<p>
+  <strong>Alive:</strong>
+  <%= @comic_character.alive %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @comic_character.gender %>
+</p>
+
+<p>
+  <strong>Eye:</strong>
+  <%= @comic_character.eye %>
+</p>
+
+<p>
+  <strong>Hair:</strong>
+  <%= @comic_character.hair %>
+</p>
+
+<p>
+  <strong>Identity type:</strong>
+  <%= @comic_character.identity_type %>
+</p>
+
+<p>
+  <strong>Alignment:</strong>
+  <%= @comic_character.alignment %>
+</p>
+
+<p>
+  <strong>Intro on:</strong>
+  <%= @comic_character.intro_on %>
+</p>
+
+<%= link_to 'Edit', edit_comic_character_path(@comic_character) %> |
+<%= link_to 'Back', comic_characters_path %>

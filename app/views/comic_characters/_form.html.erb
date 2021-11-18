@@ -1,0 +1,72 @@
+<%= form_with(model: comic_character, local: true) do |form| %>
+  <% if comic_character.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(comic_character.errors.count, "error") %> prohibited this comic_character from being saved:</h2>
+
+      <ul>
+      <% comic_character.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :universe %>
+    <%= form.text_field :universe %>
+  </div>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :url %>
+    <%= form.text_field :url %>
+  </div>
+
+  <div class="field">
+    <%= form.label :appearances %>
+    <%= form.number_field :appearances %>
+  </div>
+
+  <div class="field">
+    <%= form.label :alive %>
+    <%= form.check_box :alive %>
+  </div>
+
+  <div class="field">
+    <%= form.label :gender %>
+    <%= form.text_field :gender %>
+  </div>
+
+  <div class="field">
+    <%= form.label :eye %>
+    <%= form.text_field :eye %>
+  </div>
+
+  <div class="field">
+    <%= form.label :hair %>
+    <%= form.text_field :hair %>
+  </div>
+
+  <div class="field">
+    <%= form.label :identity_type %>
+    <%= form.text_field :identity_type %>
+  </div>
+
+  <div class="field">
+    <%= form.label :alignment %>
+    <%= form.text_field :alignment %>
+  </div>
+
+  <div class="field">
+    <%= form.label :intro_on %>
+    <%= form.date_select :intro_on %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,244 @@
+rowid,Performer,Score per year,Total score,Show
+1,Michelle Monaghan,4.0,4.0,True Detective
+2,Ryan Kwanten,4.0,4.0,True Blood
+3,Siobhan Finneran,2.7,8.0,Downton Abbey
+4,Aaron Paul,2.6,5.25,Breaking Bad
+5,Jennifer Morrison,2.4,7.25,House
+6,Bob Odenkirk,2.4,4.75,Breaking Bad
+7,Kevin Dunn,2.3,2.25,True Detective
+8,Amanda Seyfried,2.2,8.75,Big Love
+9,Rose Byrne,1.9,5.75,Damages
+10,Scott Porter,1.9,9.25,Friday Night Lights
+11,Connie Britton,1.8,7.25,Friday Night Lights
+12,Dean Norris,1.8,3.5,Breaking Bad
+13,Michelle Fairley,1.8,3.5,Game of Thrones
+14,Shea Whigham,1.8,1.75,Boardwalk Empire
+15,Ginnifer Goodwin,1.6,6.25,Big Love
+16,Diego Klattenhoff,1.5,3.0,Homeland
+17,Morena Baccarin,1.5,3.0,Homeland
+18,Allison Janney,1.5,13.25,The West Wing
+19,Adrianne Palicki,1.4,5.75,Friday Night Lights
+20,Jason Ritter,1.4,14.25,Joan of Arcadia
+21,Rob Lowe,1.4,12.5,The West Wing
+22,Aimee Teegarden,1.4,5.5,Friday Night Lights
+23,Chlo Sevigny,1.4,5.5,Big Love
+24,Jack Huston,1.4,2.75,Boardwalk Empire
+25,Dan Stevens,1.3,4.0,Downton Abbey
+26,Jesse Spencer,1.3,4.0,House
+27,Bill Paxton,1.3,5.25,Big Love
+28,Taylor Kitsch,1.3,5.25,Friday Night Lights
+29,Timothy Olyphant,1.3,11.75,Deadwood
+30,Milo Ventimiglia,1.3,6.5,Heroes
+31,Harold Perrineau,1.3,6.25,Lost
+32,Hayden Panettiere,1.3,6.25,Heroes
+33,Jeanne Tripplehorn,1.3,5.0,Big Love
+34,David Zayas,1.3,2.5,Dexter
+35,James Remar,1.3,2.5,Dexter
+36,Paul Sparks,1.3,1.25,Boardwalk Empire
+37,Sam Trammell,1.3,1.25,True Blood
+38,Vincent Piazza,1.3,1.25,Boardwalk Empire
+39,Noah Wyle,1.2,7.25,ER
+40,Adrian Pasdar,1.2,6.0,Heroes
+41,Kiefer Sutherland,1.2,6.0,24
+42,Zach Gilford,1.2,4.75,Friday Night Lights
+43,Bryan Cranston,1.1,2.25,Breaking Bad
+44,John Hawkes,1.1,9.75,Deadwood
+45,Joe Mantegna,1.1,10.75,Joan of Arcadia
+46,Julie Bowen,1.1,7.5,Boston Legal
+47,Daniel Dae Kim,1.1,5.25,Lost
+48,Emilie de Ravin,1.1,5.25,Lost
+49,Matt Ross,1.0,4.0,Big Love
+50,Robert Sean Leonard,1.0,3.0,House
+51,Betsy Brandt,1.0,2.0,Breaking Bad
+52,Deborah Ann Woll,1.0,1.0,True Blood
+53,J.D. Evermore,1.0,1.0,True Detective
+54,Joe Manganiello,1.0,1.0,True Blood
+55,Matthew McConaughey,1.0,1.0,True Detective
+56,Michael Kenneth Williams,1.0,1.0,Boardwalk Empire
+57,Michael Shannon,1.0,1.0,Boardwalk Empire
+58,Rory McCann,1.0,1.0,Game of Thrones
+59,Tory Kittles,1.0,1.0,True Detective
+60,Dul_ Hill,0.9,8.5,The West Wing
+61,Peter Krause,0.9,9.25,Six Feet Under
+62,Michael C. Hall,0.9,7.125,Six Feet Under
+63,Zachary Quinto,0.9,4.5,Heroes
+64,Dayton Callie,0.9,8.0,Deadwood
+65,Dylan McDermott,0.9,9.75,The Practice
+66,Edie Falco,0.9,7.0,The Sopranos
+67,Kyle Chandler,0.9,3.5,Friday Night Lights
+68,Rachel Griffiths,0.9,8.5,Six Feet Under
+69,Josh Holloway,0.9,4.25,Lost
+70,Maura Tierney,0.8,5.0,ER
+71,Freddy RodrÕguez,0.8,8.0,Six Feet Under
+72,Dominic Monaghan,0.8,4.0,Lost
+73,Henry Ian Cusick,0.8,4.0,Lost
+74,Julie Benz,0.8,4.0,Dexter
+75,Masi Oka,0.8,4.0,Heroes
+76,Michael Emerson,0.8,4.0,Lost
+77,Sendhil Ramamurthy,0.8,4.0,Heroes
+78,Mark Valley,0.8,6.25,Boston Legal
+79,Lorraine Bracco,0.8,6.0,The Sopranos
+80,Louanne Stephens,0.8,3.0,Friday Night Lights
+81,James Gandolfini,0.7,5.75,The Sopranos
+82,Mary Lynn Rajskub,0.7,3.5,24
+83,Drea de Matteo,0.7,6.25,The Sopranos
+84,Ian McShane,0.7,6.25,Deadwood
+85,Joshua Malina,0.7,6.25,The West Wing
+86,Douglas Smith,0.7,2.75,Big Love
+87,Jesse Plemons,0.7,2.75,Friday Night Lights
+88,Goran Visnjic,0.7,4.75,ER
+89,Hugh Laurie,0.7,2.0,House
+90,Omar Epps,0.7,2.0,House
+91,Steve Schirripa,0.7,5.25,The Sopranos
+92,Amber Tamblyn,0.7,6.5,Joan of Arcadia
+93,Greg Grunberg,0.7,3.25,Heroes
+94,James Spader,0.6,4.5,Boston Legal
+95,Kim Dickens,0.6,5.75,Deadwood
+96,Molly Parker,0.6,5.75,Deadwood
+97,Paula Malcomson,0.6,5.75,Deadwood
+98,Richard Schiff,0.6,5.75,The West Wing
+99,Joel McKinnon Miller,0.6,2.5,Big Love
+100,Bradley Whitford,0.6,5.5,The West Wing
+101,Leon Rippy,0.6,5.5,Deadwood
+102,Jorge Garcia,0.6,3.0,Lost
+103,Sam Waterston,0.6,3.0,Law & Order
+104,Minka Kelly,0.6,3.5,Friday Night Lights
+105,Zachary Booth,0.6,1.75,Damages
+106,Anna Gunn,0.6,3.5,Deadwood
+107,Michael Imperioli,0.6,4.5,The Sopranos
+108,Bruce Dern,0.6,2.25,Big Love
+109,Frances Conroy,0.6,5.5,Six Feet Under
+110,Camryn Manheim,0.5,6.0,The Practice
+111,Lauren Ambrose,0.5,5.25,Six Feet Under
+112,Kelli Williams,0.5,6.25,The Practice
+113,Titus Welliver,0.5,4.5,Deadwood
+114,Jamie-Lynn Sigler,0.5,4.0,The Sopranos
+115,Lisa Edelstein,0.5,2.0,House
+116,Marg Helgenberger,0.5,1.0,CSI: Crime Scene Investigations
+117,Carrie Preston,0.5,0.5,True Blood
+118,Gretchen Mol,0.5,0.5,Boardwalk Empire
+119,Jim Parrack,0.5,0.5,True Blood
+120,Rutina Wesley,0.5,0.5,True Blood
+121,Woody Harrelson,0.5,0.5,True Detective
+122,Martin Sheen,0.5,4.25,The West Wing
+123,Rene Auberjonois,0.5,3.25,Boston Legal
+124,Mary Steenburgen,0.5,4.5,Joan of Arcadia
+125,Ali Larter,0.5,2.25,Heroes
+126,Naveen Andrews,0.5,2.25,Lost
+127,Tate Donovan,0.5,2.25,Damages
+128,William Sanderson,0.4,4.0,Deadwood
+129,Robin Weigert,0.4,3.75,Deadwood
+130,Aaron Himelstein,0.4,4.0,Joan of Arcadia
+131,Shawn Doyle,0.4,2.0,Big Love
+132,Terry O'Quinn,0.4,2.0,Lost
+133,Yunjin Kim,0.4,2.0,Lost
+134,Sean Bridgers,0.4,3.5,Deadwood
+135,Steven Van Zandt,0.4,3.0,The Sopranos
+136,Melora Walters,0.4,1.75,Big Love
+137,LisaGay Hamilton,0.3,4.0,The Practice
+138,Powers Boothe,0.3,3.0,Deadwood
+139,Carlos Bernard,0.3,2.0,24
+140,Laura Innes,0.3,2.0,ER
+141,David Harewood,0.3,1.0,Homeland
+142,Eric Dane,0.3,1.0,Grey's Anatomy
+143,Steve Harris,0.3,3.5,The Practice
+144,Derek Phillips,0.3,1.25,Friday Night Lights
+145,Michael Welch,0.3,3.0,Joan of Arcadia
+146,Matthew Fox,0.3,1.5,Lost
+147,S. Epatha Merkerson,0.3,1.5,Law & Order
+148,Anthony Edwards,0.3,2.0,ER
+149,Gaius Charles,0.3,2.0,Friday Night Lights
+150,William Shatner,0.3,2.0,Boston Legal
+151,W. Earl Brown,0.3,2.5,Deadwood
+152,Justina Machado,0.3,2.75,Six Feet Under
+153,Chris Marquette,0.3,2.5,Joan of Arcadia
+154,Brad Dourif,0.3,2.25,Deadwood
+155,Mary Kay Place,0.3,1.0,Big Love
+156,Stacey Oristano,0.3,1.0,Friday Night Lights
+157,Glenn Close,0.3,0.75,Damages
+158,Michael Stuhlbarg,0.3,0.5,Boardwalk Empire
+159,Morgan Saylor,0.3,0.5,Homeland
+160,Anna Paquin,0.3,0.25,True Blood
+161,Dane Rhodes,0.3,0.25,True Detective
+162,Joe Chrest,0.3,0.25,True Detective
+163,Michael Hyatt,0.3,0.25,True Detective
+164,Nelsan Ellis,0.3,0.25,True Blood
+165,Stephen Graham,0.3,0.25,Boardwalk Empire
+166,Stephen Moyer,0.3,0.25,True Blood
+167,Steve Buscemi,0.3,0.25,Boardwalk Empire
+168,Todd Lowe,0.3,0.25,True Blood
+169,Jim Beaver,0.2,2.0,Deadwood
+170,Keone Young,0.2,2.0,Deadwood
+171,Ashley Crow,0.2,1.0,Heroes
+172,Evangeline Lilly,0.2,1.0,Lost
+173,Jack Coleman,0.2,1.0,Heroes
+174,Yvette Freeman,0.2,1.0,ER
+175,Harry Dean Stanton,0.2,0.75,Big Love
+176,Janel Moloney,0.1,1.25,The West Wing
+177,Mathew St. Patrick,0.1,1.25,Six Feet Under
+178,Dominic Chianese,0.1,1.0,The Sopranos
+179,Grace Zabriskie,0.1,0.5,Big Love
+180,Jennifer Carpenter,0.1,0.25,Dexter
+181,Marla Sokoloff,0.1,1.25,The Practice
+182,Jeffrey Jones,0.1,1.0,Deadwood
+183,Melissa Fitzgerald,0.1,1.0,The West Wing
+184,Candice Bergen,0.1,0.75,Boston Legal
+185,Peter Jacobson,0.1,0.25,House
+186,Larry Cedar,0.1,0.5,Deadwood
+187,Emily Wagner,0.0,0.25,ER
+188,Dan Grimaldi,0.0,0.25,The Sopranos
+189,Peter Jason,0.0,0.25,Deadwood
+190,Mageina Tovah,0.0,0.25,Joan of Arcadia
+191,Michael Badalucco,0.0,0.25,The Practice
+192,Aida Turturro,0.0,0.0,The Sopranos
+193,Alexander Skarsgrd,0.0,0.0,True Blood
+194,Anatol Yusef,0.0,0.0,Boardwalk Empire
+195,Anthony Laciura,0.0,0.0,Boardwalk Empire
+196,Becky Wahlstrom,0.0,0.0,Joan of Arcadia
+197,Blue Deckert,0.0,0.0,Friday Night Lights
+198,Bobbin Bergstrom,0.0,0.0,House
+199,Brad Leland,0.0,0.0,Friday Night Lights
+200,Brady Noon,0.0,0.0,Boardwalk Empire
+201,Bree Seanna Wall,0.0,0.0,Deadwood
+202,C.S. Lee,0.0,0.0,Dexter
+203,Chris Bauer,0.0,0.0,True Blood
+204,Christina Robinson,0.0,0.0,Dexter
+205,Connor Noon,0.0,0.0,Boardwalk Empire
+206,Cristine Rose,0.0,0.0,Heroes
+207,Dana Gourrier,0.0,0.0,True Detective
+208,Daveigh Chase,0.0,0.0,Big Love
+209,Declan McTigue,0.0,0.0,Boardwalk Empire
+210,Deezer D,0.0,0.0,ER
+211,Desmond Harrington,0.0,0.0,Dexter
+212,Eriq La Salle,0.0,0.0,ER
+213,Garrett Gray,0.0,0.0,Big Love
+214,Geri Jewell,0.0,0.0,Deadwood
+215,Jack Gleeson,0.0,0.0,Game of Thrones
+216,Jackson Pace,0.0,0.0,Homeland
+217,James Kyson,0.0,0.0,Heroes
+218,Jerry Orbach,0.0,0.0,Law & Order
+219,John Spencer,0.0,0.0,The West Wing
+220,Josie Gallina,0.0,0.0,Boardwalk Empire
+221,Keegan Holst,0.0,0.0,Big Love
+222,Kelly Macdonald,0.0,0.0,Boardwalk Empire
+223,Kristin Bauer van Straten,0.0,0.0,True Blood
+224,Lara Flynn Boyle,0.0,0.0,The Practice
+225,Laura CerÑn,0.0,0.0,ER
+226,Lauren Bowles,0.0,0.0,True Blood
+227,Lauren Vlez,0.0,0.0,Dexter
+228,Lucy Gallina,0.0,0.0,Boardwalk Empire
+229,Meghan Wolfe,0.0,0.0,True Detective
+230,Michael Gill,0.0,0.0,House of Cards
+231,Michael Irby,0.0,0.0,True Detective
+232,Michael Potts,0.0,0.0,True Detective
+233,NiCole Robinson,0.0,0.0,The West Wing
+234,Paul Guilfoyle,0.0,0.0,CSI: Crime Scene Investigations
+235,Ralph Richeson,0.0,0.0,Deadwood
+236,RJ Mitte,0.0,0.0,Breaking Bad
+237,Robert Iler,0.0,0.0,The Sopranos
+238,Rory McTigue,0.0,0.0,Boardwalk Empire
+239,Steven Hill,0.0,0.0,Law & Order
+240,Steven Michael Quezada,0.0,0.0,Breaking Bad
+241,Timothy F. Crowley,0.0,0.0,Friday Night Lights
+242,Tony Molina Jr.,0.0,0.0,True Detective
+243,Tony Sirico,0.0,0.0,The Sopranos

@@ -1,0 +1,17 @@
+.modal-dialog.modal-dialog-slideout-left {
+  margin: 0;
+  margin-right: auto;
+
+  .modal.fade & {
+    transform: translate(-100%, 0);
+  }
+  .modal.fade.show & {
+    transform: translate(0, 0);
+    flex-flow: column;
+  }
+  & .modal-content {
+    border: 0;
+    border-radius: 0;
+    min-height: 100vh;
+  }
+}

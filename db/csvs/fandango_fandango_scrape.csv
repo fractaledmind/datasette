@@ -1,0 +1,511 @@
+rowid,FILM,STARS,RATING,VOTES
+1,Fifty Shades of Grey (2015),4.0,3.9,34846
+2,Jurassic World (2015),4.5,4.5,34390
+3,American Sniper (2015),5.0,4.8,34085
+4,Furious 7 (2015),5.0,4.8,33538
+5,Inside Out (2015),4.5,4.5,15749
+6,The Hobbit: The Battle of the Five Armies (2014),4.5,4.3,15337
+7,Kingsman: The Secret Service (2015),4.5,4.2,15205
+8,Minions (2015),4.0,4.0,14998
+9,Avengers: Age of Ultron (2015),5.0,4.5,14846
+10,Into the Woods (2014),3.5,3.4,13055
+11,Cinderella (2015),5.0,4.5,12640
+12,Ant-Man (2015),5.0,4.5,12055
+13,Mad Max: Fury Road (2015),4.5,4.3,10509
+14,San Andreas (2015),4.5,4.3,9749
+15,Unbroken (2014),4.5,4.1,9443
+16,Spy (2015),4.5,4.3,9418
+17,Magic Mike XXL (2015),4.5,4.4,9363
+18,Trainwreck (2015),4.5,4.1,8381
+19,Mission: Impossible - Rogue Nation (2015),4.5,4.4,8357
+20,Straight Outta Compton (2015),5.0,4.8,8096
+21,Tomorrowland (2015),4.0,3.7,8077
+22,The Imitation Game (2014),5.0,4.6,8055
+23,Home (2015),4.5,4.4,7705
+24,The Divergent Series: Insurgent (2015),4.5,4.2,7123
+25,Selma (2014),5.0,4.6,7025
+26,Annie (2014),4.5,4.2,6835
+27,Taken 3 (2015),4.5,4.1,6757
+28,The Wedding Ringer (2015),4.5,4.4,6506
+29,Ted 2 (2015),4.5,4.1,6437
+30,Fantastic Four (2015),3.0,2.7,6288
+31,Terminator Genisys (2015),4.5,4.2,6272
+32,Get Hard (2015),4.0,3.9,5933
+33,Southpaw (2015),5.0,4.6,5597
+34,Night at the Museum: Secret of the Tomb (2014),4.5,4.1,5445
+35,Focus (2015),4.0,3.9,4933
+36,Pitch Perfect 2 (2015),4.5,4.2,4577
+37,The SpongeBob Movie: Sponge Out of Water (2015),3.5,3.3,4493
+38,Entourage (2015),4.5,4.2,4279
+39,Birdman (2014),4.0,3.7,4194
+40,Jupiter Ascending (2015),3.5,3.4,4122
+41,Paddington (2015),4.5,4.3,4045
+42,Pixels (2015),4.5,4.1,3886
+43,Vacation (2015),4.0,3.8,3815
+44,Dragon Ball Z: Resurrection 'F' (2015),5.0,4.8,3740
+45,Chappie (2015),4.0,3.8,3642
+46,Ex Machina (2015),4.5,4.1,3458
+47,Max (2015),4.5,4.5,3412
+48,"McFarland, USA (2015)",5.0,4.6,3364
+49,The Age of Adaline (2015),4.5,4.2,3325
+50,Insidious: Chapter 3 (2015),4.5,4.1,3276
+51,Top Five (2014),4.0,3.5,3223
+52,Paul Blart: Mall Cop 2 (2015),3.5,3.5,3054
+53,The Boy Next Door (2015),4.0,3.6,2800
+54,Poltergeist (2015),3.0,2.8,2704
+55,The Man From U.N.C.L.E. (2015),4.5,4.1,2686
+56,The Gift (2015),4.0,3.7,2680
+57,Hot Pursuit (2015),4.0,3.7,2618
+58,The Longest Ride (2015),4.5,4.5,2603
+59,Unfriended (2015),3.0,2.7,2507
+60,Woman in Gold (2015),4.5,4.4,2435
+61,Aloha (2015),3.5,3.1,2284
+62,The DUFF (2015),4.5,4.2,2273
+63,Dope (2015),4.5,4.3,2195
+64,It Follows (2015),3.0,2.9,2097
+65,Run All Night (2015),4.5,4.1,2066
+66,Baahubali: The Beginning (2015),5.0,4.6,1922
+67,The Gallows (2015),3.0,2.9,1896
+68,The Second Best Exotic Marigold Hotel (2015),4.0,3.9,1870
+69,Black or White (2015),4.5,4.2,1862
+70,Project Almanac (2015),4.0,3.7,1834
+71,Do You Believe? (2015),5.0,4.5,1793
+72,Paper Towns (2015),4.0,3.8,1750
+73,The Lazarus Effect (2015),3.0,3.0,1651
+74,Big Eyes (2014),4.0,3.8,1501
+75,Ricki and the Flash (2015),4.0,3.7,1462
+76,Blackhat (2015),3.0,2.8,1430
+77,Self/less (2015),4.0,3.8,1415
+78,Mr. Holmes (2015),4.0,4.0,1348
+79,The Woman In Black 2 Angel of Death (2015),3.0,3.0,1333
+80,Still Alice (2015),4.5,4.1,1258
+81,Seventh Son (2015),3.5,3.2,1213
+82,Mortdecai (2015),3.5,3.2,1196
+83,Strange Magic (2015),3.5,3.4,1117
+84,Inherent Vice (2014),3.0,2.9,1078
+85,Bajrangi Bhaijaan (2015),5.0,4.6,1035
+86,Hot Tub Time Machine 2 (2015),3.5,3.0,1021
+87,The Gunman (2015),3.5,3.4,996
+88,Sinister 2 (2015),3.5,3.3,973
+89,Hitman: Agent 47 (2015),4.0,3.9,917
+90,Shaun the Sheep Movie (2015),4.5,4.0,896
+91,Love & Mercy (2015),4.5,4.0,864
+92,Unfinished Business (2015),3.5,3.2,821
+93,The Loft (2015),4.0,3.6,811
+94,Little Boy (2015),4.5,4.3,811
+95,Far From The Madding Crowd (2015),4.5,4.0,804
+96,Amy (2015),4.5,4.4,729
+97,TCM presents Jaws 40th Anniversary (2015),5.0,4.8,716
+98,Monkey Kingdom (2015),4.5,4.2,701
+99,A Most Violent Year (2014),3.5,3.4,675
+100,American Ultra (2015),4.0,3.7,638
+101,Me and Earl and The Dying Girl (2015),4.5,4.3,624
+102,True Story (2015),3.5,3.2,540
+103,A La Mala (2015),5.0,4.6,536
+104,Danny Collins (2015),4.0,4.0,531
+105,Srimanthudu (2015),4.5,4.1,496
+106,Cake (2015),3.5,3.4,482
+107,Spare Parts (2015),4.5,4.5,450
+108,While We're Young (2015),3.0,2.9,449
+109,The Last: Naruto the Movie (2015),5.0,4.8,409
+110,Tanu Weds Manu Returns (2015),4.5,4.5,400
+111,The Water Diviner (2015),4.5,4.0,397
+112,The Breakfast Club 30th Anniversary (2015),5.0,4.9,381
+113,DIl Dhadakne Do (2015),4.0,4.0,316
+114,Child 44 (2015),4.0,3.7,308
+115,Mr. Turner (2014),3.5,3.2,290
+116,I'll See You In My Dreams (2015),4.0,3.6,281
+117,Star Wars: Episode VII - The Force Awakens (2015),5.0,4.7,261
+118,What We Do in the Shadows (2015),4.5,4.3,259
+119,Irrational Man (2015),4.0,3.5,252
+120,Wild Tales (2014),4.5,4.1,235
+121,Where Hope Grows (2015),4.5,4.3,225
+122,TCM presents Grease Sing-A-Long (2015),5.0,4.6,219
+123,Black Sea (2015),4.0,3.5,218
+124,NT Live: The Audience (2015),5.0,4.7,215
+125,The Vatican Tapes (2015),3.0,2.9,210
+126,'71 (2015),3.5,3.5,192
+127,Beyond the Mask (2015),4.5,4.4,189
+128,Faith Of Our Fathers (2015),4.0,3.9,186
+129,Chocolate City (2015),4.0,3.8,176
+130,Clouds of Sils Maria (2015),3.5,3.4,162
+131,TCM presents Double Indemnity (2015),5.0,4.8,131
+132,DCI 2015 Tour Premiere (2015),5.0,4.7,128
+133,Testament of Youth (2015),4.0,3.9,127
+134,Infinitely Polar Bear (2015),4.0,3.9,124
+135,David and Goliath (2015),3.5,3.2,123
+136,The End of the Tour (2015),4.5,4.1,121
+137,"Two Days, One Night (2014)",3.5,3.5,118
+138,Drishyam (2015),4.5,4.4,117
+139,Bolshoi Ballet: Swan Lake (2015),4.5,4.1,112
+140,Insider Access to Disney Pixarâ€™s Inside Out (2015),5.0,4.7,110
+141,The Overnight (2015),3.5,3.3,110
+142,Detective Byomkesh Bakshy (2015),4.0,3.9,109
+143,The Last Five Years (2015),4.5,4.4,99
+144,Maggie (2015),3.5,3.3,95
+145,RangiTaranga (2015),5.0,4.8,85
+146,Ode to My Father (2014),5.0,4.6,83
+147,The Salt of the Earth (2015),4.5,4.3,83
+148,A Little Chaos (2015),4.0,3.9,83
+149,Angrej (2015),5.0,4.8,80
+150,5 Flights Up (2015),4.0,3.6,79
+151,Dior and I (2015),4.0,4.0,75
+152,Timbuktu (2015),4.0,3.6,74
+153,Brothers: Blood Against Blood (2015),4.0,4.0,74
+154,Phoenix (2015),3.5,3.4,70
+155,Above and Beyond (2015),4.5,4.4,70
+156,Bolshoi Ballet: The Nutcracker (2014),4.5,4.4,70
+157,Bolshoi Ballet: Romeo And Juliet (2015),4.5,4.2,68
+158,A Girl Like Her (2015),4.5,4.2,66
+159,Song of the Sea (2014),4.5,4.3,66
+160,The Wolfpack (2015),3.5,3.4,66
+161,Effie Gray (2015),3.0,2.8,65
+162,Leviathan (2014),4.0,3.5,64
+163,Cartel Land (2015),4.5,4.2,64
+164,Sardaar Ji (2015),4.5,4.4,64
+165,Classic Music Series: Led Zeppelin (2015),4.5,4.5,64
+166,The 100-Year-Old Man Who Climbed Out the Window and Disappeared (2015),4.0,3.9,63
+167,Exhibition OnScreen: The Impressionists (2015),4.0,4.0,62
+168,The Hunger Games: Mockingjay - Part 2 (2015),5.0,4.7,61
+169,Kick 2 (2015),3.0,2.7,60
+170,Royal Ballet: Swan Lake (2015),5.0,4.5,59
+171,Iris (2015),4.0,3.8,59
+172,Gett: The Trial of Viviane Amsalem (2015),3.5,3.5,59
+173,ABCD 2 (2015),4.0,3.8,58
+174,War Room (2015),4.0,3.8,58
+175,Assassination (2015),5.0,4.6,57
+176,Welcome to Me (2015),4.0,3.6,56
+177,The Metropolitan Opera: Iolanta/Duke Bluebeard's Castle (2015),4.0,3.7,56
+178,Dark Places (2015),4.0,3.7,55
+179,Red Army (2015),4.5,4.1,54
+180,Deli Man (2015),4.0,3.8,54
+181,The Stanford Prison Experiment (2015),4.0,3.9,51
+182,Exhibition OnScreen: Vincent Van Gogh (2015),4.5,4.1,50
+183,Unity (2015),4.5,4.2,50
+184,Spectre (2015),4.5,4.3,50
+185,Bin Roye (2015),4.5,4.4,50
+186,Serena (2015),3.0,3.0,50
+187,Escobar: Paradise Lost (2015),4.0,3.9,48
+188,When Marnie Was There (2015),4.5,4.1,46
+189,Felix and Meira (2015),3.5,3.2,46
+190,Exhibition OnScreen: Matisse (2015),4.5,4.0,45
+191,Twinsters (2015),5.0,4.5,44
+192,Meru (2015),4.5,4.5,44
+193,Saint Laurent (2015),3.5,3.1,43
+194,About Elly (2015),4.0,3.6,43
+195,Masss (2015),4.0,3.7,43
+196,The Hunting Ground (2015),4.5,4.1,42
+197,Merchants of Doubt (2014),4.0,3.7,42
+198,Hamari Adhuri Kahani (2015),4.5,4.1,41
+199,Seymour: An Introduction (2015),4.5,4.2,41
+200,"Kumiko, The Treasure Hunter (2015)",3.5,3.5,41
+201,Premam (2015),5.0,4.5,40
+202,NH 10 (2015),3.5,3.2,39
+203,The Diary of a Teenage Girl (2015),4.0,3.6,38
+204,The Wrecking Crew (2015),4.5,4.2,38
+205,King Lear (Stratford Festival) (2015),4.5,4.2,36
+206,Tangerine (2015),4.0,3.9,36
+207,Maps to the Stars (2015),3.5,3.1,35
+208,Do I Sound Gay? (2015),3.0,2.7,32
+209,Triumph in the Skies (2015),4.0,3.8,32
+210,In the Name of my Daughter (2015),4.0,3.5,31
+211,The Metropolitan Opera: La Donna del Lago Encore (2015),4.5,4.0,30
+212,The Oscar Nominated Short Films 2015: Live Action (2015),3.5,3.4,30
+213,Just the Way You Are (2014) (2015),5.0,4.8,29
+214,Man From Reno (2015),4.0,4.0,29
+215,Slow West (2015),4.0,4.0,29
+216,Exhibition OnScreen: Girl with the Pearl Earring (2015),4.5,4.2,28
+217,Daryl Hall & John Oates: Recorded Live From Dublin (2015),4.5,4.3,28
+218,PlantPure Nation (2015),5.0,4.9,28
+219,Desert Dancer (2015),4.0,4.0,28
+220,Boulevard (2015),4.5,4.1,27
+221,Classic Music Series: Aerosmith (2015),5.0,4.6,27
+222,Samba (2015),4.0,3.8,26
+223,Antony and Cleopatra (Stratford Festival) (2015),3.5,3.0,25
+224,The Voices (2015),4.0,3.6,25
+225,Big Game (2015),4.0,3.5,24
+226,5 to 7 (2015),3.5,3.4,24
+227,Let's Get Married (2015),4.5,4.4,24
+228,The Algerian (2015),5.0,4.5,23
+229,Good Kill (2015),4.0,3.6,23
+230,The Metropolitan Opera: Cavalleria Rusticana/Paliacci (2015),4.5,4.3,23
+231,Mommy (2015),4.0,3.9,23
+232,The Oscar Nominated Short Films 2015: Animated (2015),4.5,4.1,22
+233,Jil (2015),3.5,3.2,22
+234,Batkid Begins (2015),4.5,4.2,22
+235,3 Hearts  (2015),3.0,2.8,22
+236,Cop Car (2015),3.5,3.4,22
+237,Survivor (2015),3.5,3.2,21
+238,Gemma Bovery (2015),3.0,2.8,21
+239,She's Funny That Way (2015),4.0,3.8,21
+240,Zombeavers (2015),4.0,3.8,21
+241,Maari (2015),4.5,4.4,21
+242,Ballet 422 (2015),3.0,3.0,21
+243,No Escape (2015),4.0,4.0,21
+244,Mistress America (2015),4.0,3.6,20
+245,Best of Enemies (2015),3.5,3.3,20
+246,Jimmy's Hall (2015),3.5,3.4,20
+247,Human Capital (2015),4.0,3.5,19
+248,White God (2015),4.0,3.6,19
+249,Boychoir (2015),5.0,4.7,19
+250,Listen to Me Marlon (2015),3.5,3.3,19
+251,An Honest Liar (2015),4.0,3.8,19
+252,A LEGO Brickumentary (2015),4.5,4.4,19
+253,The Connection (2015),4.0,3.7,18
+254,Walt Before Mickey  (2015),5.0,4.7,18
+255,Results (2015),3.0,3.0,18
+256,Heaven Knows What (2015),4.0,3.5,17
+257,Lambert & Stamp (2015),4.0,3.7,17
+258,Go Away Mr. Tumor (2015),4.5,4.2,17
+259,What We Did on Our Holiday (2015),4.5,4.3,17
+260,Tangerines (2015),4.0,3.9,17
+261,Last Knights (2015),5.0,4.7,16
+262,Manglehorn (2015),2.5,2.3,16
+263,Learning to Drive (2015),4.5,4.1,15
+264,That Thing Called Tadhana (2015),4.0,3.6,15
+265,Sunshine Superman (2015),4.5,4.2,15
+266,The Farewell Party (2015),3.5,3.3,15
+267,Paulette (2015),4.5,4.1,14
+268,Once I Was a Beehive (2015),5.0,4.6,14
+269,Vasuvum Saravananum Onna Padichavanga (2015),3.5,3.1,14
+270,Monsters: Dark Continent (2015),3.5,3.2,14
+271,Snow Girl and the Dark Crystal 3D (2015),4.0,3.8,14
+272,Grandma (2015),4.0,3.9,14
+273,Can't Stand Losing You: Surviving The Police (2015),4.5,4.4,14
+274,The Green Inferno (2015),4.5,4.4,14
+275,The Young and Prodigious T.S. Spivet (2015),4.5,4.1,13
+276,Kill Me Three Times (2015),3.5,3.2,13
+277,Runoff (2015),4.5,4.2,13
+278,Matt Shepard Is a Friend of Mine (2015),5.0,4.9,13
+279,Aloft (2015),3.0,3.0,13
+280,Kahlil Gibran's The Prophet (2015),4.0,4.0,13
+281,Lost and Love (Shi Gu) (2015),5.0,4.6,12
+282,The Tribe (2015),4.0,4.0,12
+283,All Is Well (2015),3.0,2.6,11
+284,Eden (2015),3.5,3.1,11
+285,Spring (2015),4.0,3.6,11
+286,A Pigeon Sat on a Branch Reflecting on Existence (2015),3.5,3.2,11
+287,Deadpool (2016),5.0,4.7,11
+288,Queen and Country (2015),4.0,3.8,11
+289,The Duke of Burgundy (2015),3.5,3.4,11
+290,Girlhood (2015),4.0,3.5,10
+291,Madame Bovary (2015),4.0,3.6,10
+292,Cymbeline (2015),4.0,3.7,10
+293," Like Sunday, Like Rain (2015)",4.0,3.7,10
+294,THE DEATH OF SUPERMAN LIVES: WHAT HAPPENED? (2015),5.0,4.7,10
+295,The Riot Club (2015),3.5,3.3,10
+296,The Salvation (2015),4.0,3.9,10
+297,National Theatre Live: Man and Superman (2015),5.0,5.0,10
+298,How to Fight in Six Inch Heels (2015),4.5,4.1,9
+299,Superfast! (2015),5.0,4.6,9
+300,Tinker Bell and the Legend of the NeverBeast (2015),5.0,4.6,9
+301,Gabriel (2015),4.0,3.6,9
+302,The Search for General Tso (2015),3.5,3.3,9
+303,Julie Taymor's Midsummer Night's Dream (2015),4.5,4.4,9
+304,Love Live! The School Idol Movie (2015),5.0,4.9,9
+305,Maze Runner: The Scorch Trials (2015),5.0,5.0,9
+306,Dark Awakening (2015),4.0,3.5,8
+307,12 Golden Ducks (2015),5.0,4.5,8
+308,Kurt Cobain: Montage of Heck (2015),5.0,4.6,8
+309,Only You (2015),5.0,4.6,8
+310,The Outrageous Sophie Tucker (2015),4.0,3.6,8
+311,Eastern Boys (2015),3.5,3.3,8
+312,Amira & Sam (2015),5.0,4.8,8
+313,Barely Lethal (2015),5.0,4.8,8
+314,Into The Grizzly Maze (2015),3.5,3.4,8
+315,The Look of Silence (2015),3.5,3.4,8
+316,I Am Big Bird: The Caroll Spinney Story (2015),4.0,3.9,8
+317,Humpback Whales (2015),4.5,4.4,8
+318,Cheatin' (2015),5.0,5.0,8
+319,After Words (2015),4.0,3.6,7
+320,Beloved Sisters (2014),3.5,3.3,7
+321,Cut Bank (2015),3.5,3.3,7
+322,Six Dance Lessons in Six Weeks (2014),3.0,3.0,7
+323,The Pardon (2015),4.0,4.0,7
+324,League of Legends LCS Summer Finals (2015),5.0,5.0,7
+325,Vaalu (2015),2.0,1.5,6
+326,The Little Death (2015),5.0,4.5,6
+327,Live From New York! (2015),4.5,4.2,6
+328,Backcountry (2015),4.0,3.8,6
+329,Some Kind of Beautiful (2015),4.0,4.0,6
+330,Hotel Transylvania 2 (2015),5.0,5.0,6
+331,Soaked In Bleach (2015),5.0,5.0,6
+332,I Believe in Unicorns (2015),5.0,4.6,5
+333,Living in the Age of Airplanes (2015),4.0,3.6,5
+334,We Are Your Friends (2015),4.0,3.6,5
+335,The Falling (2015),3.5,3.2,5
+336,The Peanuts Movie (2015),4.5,4.2,5
+337,Ennum Eppozhum (2015),3.0,2.8,5
+338,The Ark Of Mr. Chow (2015),3.0,2.8,5
+339,Humpback Whales 3D (2015),4.0,3.8,5
+340,Police Story: Lockdown (2015),5.0,4.8,5
+341,Fresh Dressed (2015),4.5,4.4,5
+342,Two Step (2015),4.5,4.4,5
+343,An Open Secret (2015),3.0,3.0,5
+344,"3 1/2 Minutes, Ten Bullets (2015)",4.0,4.0,5
+345,Bonobos: Back To The Wild (2015),4.0,4.0,5
+346,Magician: The Astonishing Life and Work of Orson Welles (2014),4.0,4.0,5
+347,Detective K: Secret of the Lost Island (2015),3.0,2.5,4
+348,Fort Tilden (2015),3.0,2.5,4
+349,ESL One Cologne Counter-Strike: GO Finals Live (2015),4.0,3.5,4
+350,"People, Places, Things (2015)",5.0,4.5,4
+351,Ten Thousand Saints (2015),5.0,4.5,4
+352,The Yes Men Are Revolting (2015),5.0,4.5,4
+353,24 Days (2015),3.5,3.3,4
+354,Black Mass (2015),3.5,3.3,4
+355,Komban (2015),3.5,3.3,4
+356,Cupcakes (2015),4.0,3.8,4
+357,Misery Loves Comedy (2015),4.0,3.8,4
+358,Rakshasudu (2015),4.0,3.8,4
+359,Wonderful Nightmare (2015),4.0,3.8,4
+360,Indru Netru Naalai (2015),4.5,4.3,4
+361,I Am Chris Farley (2015),5.0,4.8,4
+362,The Good Dinosaur (2015),5.0,4.8,4
+363,The Mafia Only Kills in Summer (2015),3.0,3.0,4
+364,Legends from the Sky (2015),4.0,4.0,4
+365,SBK The-Movie (2015),4.0,4.0,4
+366,National Theatre Live: The Hard Problem (2015),5.0,5.0,4
+367,The Boy (2015),5.0,5.0,4
+368,The Perfect Guy (2015),5.0,5.0,4
+369,Forbidden Films (2015),3.0,2.7,3
+370,A Poem Is a Naked Person (2015),4.0,3.7,3
+371,Buzzard (2015),4.0,3.7,3
+372,Court (2015),4.0,3.7,3
+373,A Walk in the Woods (2015),4.5,4.3,3
+374,Drafthouse Films: ROAR (2015),4.5,4.3,3
+375,The Girl is in Trouble (2015),4.5,4.3,3
+376,Winning: The Racing Life Of Paul Newman (2015),4.5,4.3,3
+377,Don't Think I've Forgotten: Cambodia's Lost Rock and Roll (2015),4.0,4.0,3
+378,Dukale's Dream (2015),4.0,4.0,3
+379,Marie's Story (2015),4.0,4.0,3
+380,Royal Ballet: The Winterâ€™s Tale (2015),4.0,4.0,3
+381,Fall to Rise (2015),5.0,5.0,3
+382,Turbo Kid (2015),5.0,4.0,2
+383,Hunting Elephants (2015),3.0,2.5,2
+384,Felt (2015),4.0,3.5,2
+385,October Gale (2015),2.0,2.0,2
+386,1001 Grams (2015),3.0,3.0,2
+387,Charlie's Country (2015),3.0,3.0,2
+388,Jauja (2015),3.0,3.0,2
+389,Love at First Fight (2015),3.0,3.0,2
+390,The Lovers (2015),3.0,3.0,2
+391,Welcome to New York (2015),3.0,3.0,2
+392,Rebels of the Neon God (2015),4.0,4.0,2
+393,The Visit (2015),4.0,4.0,2
+394,We Come as Friends (1),4.0,4.0,2
+395,Appropriate Behavior (2015),5.0,5.0,2
+396,Dogs on the Inside (2015),5.0,5.0,2
+397,She's Lost Control (2015),5.0,5.0,2
+398,The Forecaster (2015),5.0,5.0,2
+399,The Seven Five (2015),5.0,5.0,2
+400,The Transporter Refueled (2015),5.0,5.0,2
+401,Tiger (2015),5.0,5.0,2
+402,Maya the Bee Movie (2015),1.0,1.0,1
+403,Nannbenda (2015),1.0,1.0,1
+404,Ned Rifle (2015),1.0,1.0,1
+405,Closer to the Moon (2015),2.0,2.0,1
+406,Treading Water (2015),2.0,2.0,1
+407,Amour Fou (2015),3.0,3.0,1
+408,Dark Star: H.R. Giger's World (2015),3.0,3.0,1
+409,Empire of Lust (2015),3.0,3.0,1
+410,Hungry Hearts (2015),3.0,3.0,1
+411,Nannbenda (2015),3.0,3.0,1
+412,"One Cut, One Life (2015)",3.0,3.0,1
+413,The Face of an Angel (2015),3.0,3.0,1
+414,The Living (2015),3.0,3.0,1
+415,Wild Canaries (2015),3.0,3.0,1
+416,Buggs Bunny (2015),4.0,4.0,1
+417,Digging for Fire (2015),4.0,4.0,1
+418,Every Last Child (2015),4.0,4.0,1
+419,Journey to Space (2015),4.0,4.0,1
+420,Kidnapping Mr. Heineken (2015),4.0,4.0,1
+421,Reality (2015),4.0,4.0,1
+422,Stung (2015),4.0,4.0,1
+423,The Mend (1),4.0,4.0,1
+424,A Hard Day (2015),5.0,5.0,1
+425,A Midsummer Night's Dream (2015),5.0,5.0,1
+426,A Murder In The Park (2015),5.0,5.0,1
+427,Bound to Vengeance (2015),5.0,5.0,1
+428,Captive (2015),5.0,5.0,1
+429,Far From Men (2015),5.0,5.0,1
+430,L.A. Slasher (2015),5.0,5.0,1
+431,Sexy et en cavale (2015),5.0,5.0,1
+432,That Guy Dick Miller (2015),5.0,5.0,1
+433,That Sugar Film (2015),5.0,5.0,1
+434,The Intern (2015),5.0,5.0,1
+435,The Park Bench (2015),5.0,5.0,1
+436,The Wanted 18 (2015),5.0,5.0,1
+437,Z For Zachariah (2015),5.0,5.0,1
+438,6 Years (2015),0.0,0.0,0
+439,7 Minutes (2015),0.0,0.0,0
+440,A Year in Champagne (2015),0.0,0.0,0
+441,Balls Out (2015),0.0,0.0,0
+442,Before I Wake (2015),0.0,0.0,0
+443,Big Significant Things (2015),0.0,0.0,0
+444,Caprice (2015),0.0,0.0,0
+445,Cas d&#233;sesp&#233;r&#233; (2015),0.0,0.0,0
+446,Chagall Malevich (2015),0.0,0.0,0
+447,Coffee Bloom (2015),0.0,0.0,0
+448,Come Blow Your Horn (2015),0.0,0.0,0
+449,Dan's Motel (2015),0.0,0.0,0
+450,Ego Trip (2015),0.0,0.0,0
+451,El Cartel De La Papa (2015),0.0,0.0,0
+452,"Electric Boogaloo: The Wild, Untold Story of Cannon Films (2015)",0.0,0.0,0
+453,Electric Slide (2015),0.0,0.0,0
+454,Elephant Song (2015),0.0,0.0,0
+455,Eli (2015),0.0,0.0,0
+456,Espionne (2015),0.0,0.0,0
+457,Farewell to Hollywood (2015),0.0,0.0,0
+458,Glass Chin (2015),0.0,0.0,0
+459,Guidance (2015),0.0,0.0,0
+460,Gun & Goal (2015),0.0,0.0,0
+461,How to Change the World (2015),0.0,0.0,0
+462,Insanity (2015),0.0,0.0,0
+463,Jilebi (2015),0.0,0.0,0
+464,Journey to Space 3D (2015),0.0,0.0,0
+465,La dame en or (1),0.0,0.0,0
+466,La face cache de Margo (2015),0.0,0.0,0
+467,La leon (2015),0.0,0.0,0
+468,La passion d'Augustine (2015),0.0,0.0,0
+469,Le gaucher (2015),0.0,0.0,0
+470,Le monde de demain (2015),0.0,0.0,0
+471,Le tireur (2015),0.0,0.0,0
+472,Little Big Master (2015),0.0,0.0,0
+473,Loin de la foule dchan; (2015),0.0,0.0,0
+474,Mateo (2015),0.0,0.0,0
+475,Melody (2015),0.0,0.0,0
+476,Memories of the Sword (2015),0.0,0.0,0
+477,Monde Jurassique (2015),0.0,0.0,0
+478,Munde Kamaal De (2015),0.0,0.0,0
+479,My Italian Secret: The Forgotten Heroes (2015),0.0,0.0,0
+480,New Movie (1),0.0,0.0,0
+481,Of Horses and Men (2015),0.0,0.0,0
+482,One & Two (2015),0.0,0.0,0
+483,One and Two (2015),0.0,0.0,0
+484,Our Man in Tehran (2015),0.0,0.0,0
+485,Pa! Por Mis Hijos Lo Que Sea (2015),0.0,0.0,0
+486,Paulo Coelho's Best Story (2015),0.0,0.0,0
+487,Prison 101 (1),0.0,0.0,0
+488,Queen of Earth  (2015),0.0,0.0,0
+489,SDLFF: A Photographer's Journey (2015),0.0,0.0,0
+490,"Searching For Home, Coming Back From War (2015)",0.0,0.0,0
+491,Selam Bahara Yolculuk (2015),0.0,0.0,0
+492,Set Fire to the Stars (2015),0.0,0.0,0
+493,Shake the Dust (2015),0.0,0.0,0
+494,Sleeping With Other People (2015),0.0,0.0,0
+495,Specticast: From Here to Eternity (2015),0.0,0.0,0
+496,The Curse of Downers Grove (2015),0.0,0.0,0
+497,THE HIDDEN ROOM / THE SLEEPING TIGER (2015),0.0,0.0,0
+498,The Merchant of Venice: Presented by RSC (2015),0.0,0.0,0
+499,The Mirage (2015),0.0,0.0,0
+500,The New Girlfriend (2015),0.0,0.0,0
+501,The Next Step Live: The Movie (2015),0.0,0.0,0
+502,The Passion of Augustine (2015),0.0,0.0,0
+503,The Second Mother (2015),0.0,0.0,0
+504,Traque (1),0.0,0.0,0
+505,Two 4 One (2015),0.0,0.0,0
+506,Valiyavan (2015),0.0,0.0,0
+507,WWE SummerSlam 2015 (2015),0.0,0.0,0
+508,Yagavarayinum Naa Kaakka (2015),0.0,0.0,0
+509,"Yesterday, Today and Tomorrow (1964)",0.0,0.0,0
+510,Zarafa (1),0.0,0.0,0

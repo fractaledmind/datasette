@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>testIO Demo</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://unpkg.com/tailwindcss@next/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://codepen.io/smargh/pen/PvYwmE.css" rel="stylesheet">
+
+  <style>
+    .min-w-48 { min-width: 12rem }
+    .min-w-72 { min-width: 18rem; }
+    .max-w-56 { max-width: 14rem }
+
+    summary.hide-disclosure::-webkit-details-marker {
+      display: none;
+    }
+
+    .hover\:cursor-pointer:hover { cursor: pointer }
+
+    .open\:text-white[open] { color: white }
+    .active\:text-white { color: #fff }
+
+    .chrome-context {
+      display: flex;
+      margin: 0;
+    }
+    .chrome-context > :not(.chrome) {
+      flex: 1 0 auto;
+    }
+    .chrome-context > .chrome {
+      flex: 0 0 auto;
+    }
+
+    .-col {
+      flex-direction: column;
+    }
+
+    .-row {
+      flex-direction: row;
+    }
+    .-row > :not(.chrome) {
+      flex: 1 1 auto;
+    }
+
+    .-fixed {
+      overflow: hidden;
+    }
+    .-fixed > :not(.chrome) {
+      flex: 1 1 auto;
+      overflow-y: auto;
+    }
+    .-fixed > .chrome {
+      flex: 0 0 auto;
+    }
+
+    .icon {
+      display: inline-block;
+      height: 20px;
+      font-size: 20px;
+      vertical-align: text-bottom;
+    }
+
+    .text-testio { color: #21bef4 }
+    .bg-testio { background-color: #21bef4 }
+    .border-testio { border-color: #21bef4 }
+    .hover\:bg-testio:hover { background-color: #21bef4 }
+    .open\:bg-testio[open] {
+      background-color: #21bef4
+    }
+    .active .active\:text-testio {
+      color: #21bef4
+    }
+    :not(.active) .inactive\:border-transparent {
+      border-color: transparent;
+    }
+    .active .active\:border-testio {
+      border-color: #21bef4
+    }
+    .bg-testio-500 { background-color: #236a84 }
+
+    .group:hover .group-hover\:bg-testio { background-color: #21bef4 }
+
+    .focus-within\:text-gray-800:focus-within {
+      color: #2D3748
+    }
+    .focus-within\:text-gray-800 :focus ~ * {
+      color: #2D3748
+    }
+
+    .overflow-y-scroll {
+      overflow-y: scroll !important;
+      max-height: 100%;
+    }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      /* IE10+ CSS styles go here */
+      .overflow-y-scroll {
+        overflow-y: auto;
+        padding-right: 18px;
+      }
+    }
+
+    aside .overflow-y-scroll::-webkit-scrollbar {
+      width: 0.5em;
+      height: 0.5em;
+    }
+    aside .overflow-y-scroll::-webkit-scrollbar-thumb {
+      background-color: #131a20;
+      border-radius: 6px;
+    }
+    aside .overflow-y-scroll::-webkit-scrollbar-track {
+      background-color: #263340;
+    }
+    aside .overflow-y-scroll::-webkit-scrollbar-corner {
+      background-color: #263340;
+    }
+    aside .overflow-y-scroll {
+      scrollbar-width: thin;
+      scrollbar-color: #131a20 #263340;
+    }
+    aside .overflow-y-scroll {
+      scrollbar-face-color: #131a20;
+      scrollbar-track-color: #202b36;
+      scrollbar-arrow-color: #131a20;
+      scrollbar-shadow-color: #263340;
+    }
+
+    article::-webkit-scrollbar {
+      width: 0.5em;
+      height: 0.5em;
+    }
+    article::-webkit-scrollbar-thumb {
+      background-color: lightgray;
+      border-radius: 6px;
+    }
+    article::-webkit-scrollbar-track {
+      background-color: white;
+    }
+    article::-webkit-scrollbar-corner {
+      background-color: white;
+    }
+    article {
+      scrollbar-width: thin;
+      scrollbar-color: lightgray white;
+    }
+    article {
+      scrollbar-face-color: lightgray;
+      scrollbar-track-color: #f7f7f7;
+      scrollbar-arrow-color: lightgray;
+      scrollbar-shadow-color: white;
+    }
+
+    main {
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body class="chrome-context -col -fixed h-screen">
+  <header class="chrome z-10">
+    <nav class="flex items-center justify-between flex-wrap bg-gray-800 border-b border-gray-900 pl-4 pr-2 py-1">
+      <div class="flex items-center flex-shrink-0 text-white mr-6">
+        <svg xmlns="http://www.w3.org/2000/svg" id="LOGO" viewBox="0 0 215.8 150" class="h-12">
+          <style type="text/css">
+            .st0{fill:#21BEF4;}
+            .st1{fill:#FFFFFF;}
+            .st2{fill:none;}
+          </style>
+          <title>logo-testio-header</title>
+          <g id="I">
+            <rect x="150.2" y="50" class="st0" width="8.8" height="50"/>
+          </g>
+          <g id="Test">
+            <path class="st1" d="M88.2,77l-6-1.9c-4-1.3-6-2.9-6-4.8s1.4-4.2,8-4.2c4.1,0,8.1,1,11.7,3l1.3,0.8v-8.2l-0.5-0.2   c-4-1.6-8.2-2.4-12.5-2.4c-9.7,0-15.7,4.4-15.7,11.5c0,5.2,3.8,9.1,10.9,11.4l5.9,2c3.7,1.2,5.3,2.6,5.3,4.7c0,3.6-4.4,4.3-8.1,4.3   c-4.1,0.1-8.1-1.1-11.4-3.4l-1.4-1v8.3l0.4,0.2c3.8,2,8,3,12.3,2.9c9.9,0,15.9-4.4,15.9-11.8C98.2,81.1,92.4,78.4,88.2,77z"/>
+            <path class="st1" d="M21.1,91.5l-1.6,0.4c-1,0.3-2.1,0.5-3.1,0.6h-0.2c-5.3,0-7.8-2.6-7.8-8v-18h10.3l1.3-6.7H8.4V50h-8.7v34.3   c0,10.8,7.8,15.7,15.1,15.7l0.5-0.1c1.5,0,3-0.2,4.5-0.6l1.7-0.4l0.7-0.2v-7.5L21.1,91.5z"/>
+            <path class="st1" d="M58.2,64.7c-3.1-3.8-7.7-5.8-13.3-5.9c-0.2,0-0.4,0-0.5,0C33,59.5,25.9,67.1,25.9,78.5   c0,14.2,7.4,21.3,21.9,21.3c3.9-0.2,7.8-0.8,11.7-1.7l0.7-0.2v-7.4L59,90.8l-1.5,0.4c-3.3,0.9-6.7,1.4-10.1,1.3   c-7,0-11.1-3-12.4-9.1l0,0c-0.3-2.1-0.4-4.3-0.3-6.4c0,0,0,0,0-0.1l0,0c0.5-6.6,4.7-10.7,10.8-10.6c5.2,0.4,8.7,4.5,9,10.6H41.2   l0.1,6.5h20.6l0.1-0.8c0.2-1.7,0.2-3.5,0.2-6.1C62.2,72.2,60.8,68.1,58.2,64.7z"/>
+            <path class="st1" d="M126.4,91.5l-1.6,0.4c-1,0.3-2.1,0.5-3.1,0.6h-0.2c-5.3,0-7.8-2.6-7.8-8v-18H124l1.3-6.7h-11.6V50H105v34.3   c0,10.8,7.9,15.7,15.1,15.7l0.5-0.1c1.5,0,3-0.2,4.5-0.6l1.7-0.4l0.7-0.2v-7.5L126.4,91.5z"/>
+          </g>
+          <path class="st0" d="M215.3,70.2c-2.6-13.6-15.8-22.4-29.3-19.8c-3.2,0.6-6.3,1.9-9,3.7c-0.3,0.2-0.6,0.5-0.9,0.7l6.3,6.3  c1.6-1,3.4-1.7,5.3-2.1c3.1-0.6,6.3-0.3,9.3,0.9c1,0.4,1.9,0.9,2.8,1.5c1.9,1.2,3.5,2.8,4.7,4.6c1.2,1.8,2,3.8,2.4,5.8  c0.6,3.1,0.3,6.3-0.9,9.3c-0.4,1-0.9,2-1.5,2.9c-1.2,1.8-2.8,3.4-4.7,4.6c-0.9,0.6-1.8,1.1-2.8,1.5s-2,0.7-3,0.9  c-2,0.4-4.1,0.4-6.2,0c-3.2-0.6-6.1-2.2-8.4-4.5l0,0c-0.8-0.8-1.5-1.6-2.1-2.5c-1.2-1.8-2-3.8-2.4-5.8c-0.4-2.1-0.4-4.2,0-6.2  c0.2-1,0.5-2,0.9-3c0.2-0.5,0.4-1,0.7-1.4l-6.3-6.3l-0.1,0.2c-6.5,9.9-5.2,23,3.2,31.4l0,0c1.2,1.2,2.5,2.3,3.9,3.2  c2.7,1.8,5.8,3,9,3.7c4.8,0.9,9.7,0.4,14.2-1.4c1.5-0.6,3-1.4,4.4-2.3c2.8-1.9,5.3-4.3,7.1-7.2c1.8-2.7,3-5.8,3.7-9  C216,76.6,215.9,73.4,215.3,70.2z"/>
+          <rect x="-0.3" class="st2" width="216.1" height="150"/>
+        </svg>
+      </div>
+      <div class="block lg:hidden">
+        <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+        </button>
+      </div>
+      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <ul class="text-sm lg:flex-grow text-white flex items-center">
+          <li class="lg:inline-block mx-1">
+            <a href="#responsive-header" class="px-2 py-1 rounded flex items-center justify-center h-8 hover:bg-testio">
+              <span class="icon icon-integrations mr-1"></span>
+              <span class="font-medium">Integrations</span>
+            </a>
+          </li>
+        </ul>
+        <div class="flex">
+          <div class="none sm:block relative text-gray-500 focus-within:text-gray-800">
+            <input class="shadow appearance-none rounded py-2 px-3 leading-tight focus:outline-none focus:shadow-outline bg-gray-700 border border-testio min-w-72 focus:bg-gray-500" type="search" placeholder="Search for bugs or test cycles...">
+            <div class="absolute right-0 top-0 mr-2 h-full flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="search" class="w-4 h-4 fill-current">
+                <path d="M9.331 9.331a3.088 3.088 0 1 0-4.368-4.368 3.088 3.088 0 0 0 4.368 4.368zm.655 2.11a5.149 5.149 0 0 1-6.478-7.933 5.147 5.147 0 0 1 7.934 6.478l2.256 2.257a1.03 1.03 0 1 1-1.455 1.455l-2.257-2.256z"/>
+              </svg>
+            </div>
+          </div>
+          <ul class="text-sm lg:flex-grow text-white flex items-center ml-2">
+            <li class="lg:inline-block mr-1">
+              <a href="#responsive-header" class="px-2 py-1 rounded flex items-center justify-center h-8 hover:bg-testio" title="What's new?">
+                <span class="icon icon-gift"></span>
+              </a>
+            </li>
+            <li class="lg:inline-block mx-1">
+              <a href="#responsive-header" class="px-2 py-1 rounded flex items-center justify-center h-8 hover:bg-testio" title="Edit your profile">
+                <span class="icon icon-cog"></span>
+              </a>
+            </li>
+            <li class="lg:inline-block mx-1">
+              <a href="#responsive-header" class="px-2 py-1 rounded flex items-center justify-center h-8 hover:bg-testio" title="Manage users">
+                <span class="icon icon-testers"></span>
+              </a>
+            </li>
+            <li class="lg:inline-block ml-1">
+              <a href="#responsive-header" class="px-2 py-1 rounded flex items-center justify-center h-8 hover:bg-testio" title="Log off">
+                <span class="icon icon-shutdown"></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="chrome-context -row -fixed z-0 relative">
+    <aside class="chrome chrome-context -col -fixed min-w-48 max-w-56 bg-gray-800 text-white border-r border-gray-900">
+      <div class="chrome border-b border-gray-900">
+        <details class="px-2 py-1 hover:bg-testio open:bg-testio">
+          <summary class="hide-disclosure py-2 hover:cursor-pointer focus:outline-none">
+            <div class="flex items-center justify-between">
+              <div class="bg-testio-500 rounded w-10 h-10 flex items-center justify-center group-hover:bg-testio">
+                <span class="icon icon-website-lg"></span>
+              </div>
+              <span class="ml-2">Product Title</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="angle-right" class="h-8 w-6 fill-current" preserveAspectRatio="xMaxYMid meet">
+                <path d="M9.9 8.064L5.656 3.821A1 1 0 0 1 7.07 2.407l4.95 4.95a1 1 0 0 1 0 1.414l-4.95 4.95a1 1 0 0 1-1.414-1.414l4.242-4.243z" fill-rule="evenodd"/>
+              </svg>
+            </div>
+          </summary>
+
+          <div class="absolute top-0 ml-1 mt-1 bg-gray-800 rounded-lg border border-gray-900 shadow-md min-w-48" style="left:13rem">
+            <div class="text-white">
+              <div class="p-2">
+                <div class="none sm:block relative text-gray-500 focus-within:text-gray-800">
+                  <input class="shadow appearance-none rounded py-2 px-3 leading-tight focus:outline-none focus:shadow-outline bg-gray-700 border border-testio min-w-72 focus:bg-gray-500" type="search" placeholder="Search products...">
+                  <div class="absolute right-0 top-0 mr-2 h-full flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="search" class="w-4 h-4 fill-current">
+                      <path d="M9.331 9.331a3.088 3.088 0 1 0-4.368-4.368 3.088 3.088 0 0 0 4.368 4.368zm.655 2.11a5.149 5.149 0 0 1-6.478-7.933 5.147 5.147 0 0 1 7.934 6.478l2.256 2.257a1.03 1.03 0 1 1-1.455 1.455l-2.257-2.256z"/>
+                    </svg>
+                  </div>
+                </div>
+                <hr>
+                <div class="font-bold text-gray-600">Frequently visited</div>
+                <div class="py-2">
+                  <ul class="whitespace-no-wrap">
+                    <li class="">
+                      <a href="#" class="flex p-2 items-center group">
+                        <div class="bg-testio-500 rounded w-10 h-10 flex items-center justify-center group-hover:bg-testio">
+                          <span class="icon icon-website-lg"></span>
+                        </div>
+                        <div class="ml-2">Customer Interface</div>
+                      </a>
+                    </li>
+                    <li class="">
+                      <a href="#" class="flex p-2 items-center group">
+                        <div class="bg-testio-500 rounded w-10 h-10 flex items-center justify-center group-hover:bg-testio">
+                          <span class="icon icon-website-lg"></span>
+                        </div>
+                        <div class="ml-2">Extensions</div>
+                      </a>
+                    </li>
+                    <li class="">
+                      <a href="#" class="flex p-2 items-center group">
+                        <div class="bg-testio-500 rounded w-10 h-10 flex items-center justify-center group-hover:bg-testio">
+                          <span class="icon icon-website-lg"></span>
+                        </div>
+                        <div class="ml-2">Manager Interface</div>
+                      </a>
+                    </li>
+                    <li class="">
+                      <a href="#" class="flex p-2 items-center group">
+                        <div class="bg-testio-500 rounded w-10 h-10 flex items-center justify-center group-hover:bg-testio">
+                          <span class="icon icon-website-lg"></span>
+                        </div>
+                        <div class="ml-2">Tester Interface</div>
+                      </a>
+                    </li>
+                    <li class="">
+                      <a href="#" class="flex p-2 items-center group">
+                        <div class="bg-testio-500 rounded w-10 h-10 flex items-center justify-center group-hover:bg-testio">
+                          <span class="icon icon-website-lg"></span>
+                        </div>
+                        <div class="ml-2">UX Testing</div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </details>
+      </div>
+      <div class="chrome">
+        <details class="px-2 py-1 hover:bg-testio open:bg-testio">
+          <summary class="hide-disclosure py-1 hover:cursor-pointer focus:outline-none">
+            <div class="flex items-center justify-between">
+              <div class="bg-gray-900 text-white rounded w-8 h-8 flex items-center justify-center">S</div>
+              <span class="text-sm ml-2">Section Name</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="angle-right" class="h-6 w-4 fill-current" preserveAspectRatio="xMaxYMid meet">
+                <path d="M9.9 8.064L5.656 3.821A1 1 0 0 1 7.07 2.407l4.95 4.95a1 1 0 0 1 0 1.414l-4.95 4.95a1 1 0 0 1-1.414-1.414l4.242-4.243z" fill-rule="evenodd"/>
+              </svg>
+            </div>
+          </summary>
+
+          <div class="absolute top-0 ml-1 mt-1 bg-gray-800 rounded-lg border border-gray-900 shadow-md min-w-48" style="left:13rem">
+            <div class="text-white">
+              <div class="p-2">
+                <div class="none sm:block relative text-gray-500 focus-within:text-gray-800">
+                  <input class="shadow appearance-none rounded py-2 px-3 leading-tight focus:outline-none focus:shadow-outline bg-gray-700 border border-testio min-w-72 focus:bg-gray-500" type="search" placeholder="Search products...">
+                  <div class="absolute right-0 top-0 mr-2 h-full flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="search" class="w-4 h-4 fill-current">
+                      <path d="M9.331 9.331a3.088 3.088 0 1 0-4.368-4.368 3.088 3.088 0 0 0 4.368 4.368zm.655 2.11a5.149 5.149 0 0 1-6.478-7.933 5.147 5.147 0 0 1 7.934 6.478l2.256 2.257a1.03 1.03 0 1 1-1.455 1.455l-2.257-2.256z"/>
+                    </svg>
+                  </div>
+                </div>
+                <hr>
+                <div class="font-bold text-gray-600">Frequently visited</div>
+                <div class="py-2">
+                  <ul class="whitespace-no-wrap">
+                    <li class="">
+                      <a href="#" class="flex p-2 items-center group">
+                        <div class="bg-testio-500 rounded w-10 h-10 flex items-center justify-center group-hover:bg-testio">
+                          <span class="icon icon-website-lg"></span>
+                        </div>
+                        <div class="ml-2">Customer Interface</div>
+                      </a>
+                    </li>
+                    <li class="">
+                      <a href="#" class="flex p-2 items-center group">
+                        <div class="bg-testio-500 rounded w-10 h-10 flex items-center justify-center group-hover:bg-testio">
+                          <span class="icon icon-website-lg"></span>
+                        </div>
+                        <div class="ml-2">Extensions</div>
+                      </a>
+                    </li>
+                    <li class="">
+                      <a href="#" class="flex p-2 items-center group">
+                        <div class="bg-testio-500 rounded w-10 h-10 flex items-center justify-center group-hover:bg-testio">
+                          <span class="icon icon-website-lg"></span>
+                        </div>
+                        <div class="ml-2">Manager Interface</div>
+                      </a>
+                    </li>
+                    <li class="">
+                      <a href="#" class="flex p-2 items-center group">
+                        <div class="bg-testio-500 rounded w-10 h-10 flex items-center justify-center group-hover:bg-testio">
+                          <span class="icon icon-website-lg"></span>
+                        </div>
+                        <div class="ml-2">Tester Interface</div>
+                      </a>
+                    </li>
+                    <li class="">
+                      <a href="#" class="flex p-2 items-center group">
+                        <div class="bg-testio-500 rounded w-10 h-10 flex items-center justify-center group-hover:bg-testio">
+                          <span class="icon icon-website-lg"></span>
+                        </div>
+                        <div class="ml-2">UX Testing</div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </details>
+      </div>
+      <div class="chrome-context overflow-y-scroll border-t border-b border-gray-900">
+        <ul class="w-full">
+          <li>
+            <a href="#" class="p-2 flex items-center justify-start flex-no-wrap border-l-4 hover:bg-testio active:border-testio active:text-testio inactive:border-transparent">
+              <span class="icon icon-product mr-2"></span>
+              <span class="">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="p-2 flex items-center justify-start flex-no-wrap border-l-4 hover:bg-testio active:border-testio active:text-testio inactive:border-transparent">
+              <span class="icon icon-test mr-2"></span>
+              <span class="">All Tests</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="p-2 flex items-center justify-start flex-no-wrap border-l-4 hover:bg-testio active:border-testio active:text-testio inactive:border-transparent">
+              <span class="icon icon-calendar mr-2"></span>
+              <span class="">Scheduled Tests</span>
+            </a>
+          </li>
+          <li class="active">
+            <a href="#" class="p-2 flex items-center justify-start flex-no-wrap border-l-4 hover:bg-testio active:border-testio active:text-testio inactive:border-transparent">
+              <span class="icon icon-bug-known mr-2"></span>
+              <span class="">Known Bugs</span>
+              <span class="rounded-full px-2 py-0 text-xs font-bold bg-testio text-white">1</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="p-2 flex items-center justify-start flex-no-wrap border-l-4 hover:bg-testio active:border-testio active:text-testio inactive:border-transparent">
+              <span class="icon icon-explorative mr-2"></span>
+              <span class="">New Exploratory Test</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="p-2 flex items-center justify-start flex-no-wrap border-l-4 hover:bg-testio active:border-testio active:text-testio inactive:border-transparent">
+              <span class="icon icon-testcase mr-2"></span>
+              <span class="">Test Cases</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="p-2 flex items-center justify-start flex-no-wrap border-l-4 hover:bg-testio active:border-testio active:text-testio inactive:border-transparent">
+              <span class="icon icon-feature mr-2"></span>
+              <span class="">Features</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="p-2 flex items-center justify-start flex-no-wrap border-l-4 hover:bg-testio active:border-testio active:text-testio inactive:border-transparent">
+              <span class="icon icon-devices mr-2"></span>
+              <span class="">Default Devices</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="chrome">
+        <button type="button"
+            id="AppNavToggleButton"
+            class="flex items-center h-10 w-full p-2 font-mono text-sm italic text-gray-600 hover:text-gray-400"
+            aria-controls="AppNav"
+            aria-expanded="<%= get_app_navigation_expanded ? 'true' : 'false' %>"
+            aria-label="<%= get_app_navigation_expanded ? 'Collapse navigation' : 'Expand navigation' %>"
+            data-target="app-navigation.button"
+            data-action="app-navigation#toggleNavigation">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="angle-double-left" class="h-4 w-4 fill-current">
+            <path d="M9.828 8.064l4.243 4.243a1 1 0 1 1-1.414 1.414l-4.95-4.95a1 1 0 0 1 0-1.414l4.95-4.95a1 1 0 0 1 1.414 1.414L9.828 8.064zm-6 0l4.243 4.243a1 1 0 1 1-1.414 1.414l-4.95-4.95a1 1 0 0 1 0-1.414l4.95-4.95A1 1 0 0 1 8.07 3.821L3.828 8.064z" fill-rule="evenodd"/>
+          </svg>
+          <span class="ml-2 whitespace-no-wrap">Collapse navigation</span>
+        </button>
+      </div>
+    </aside>
+    <article class="px-4">
+      <div style="height:200vh" class="flex flex-col justify-between text-3xl">
+        <div class="flex-1 flex justify-center items-start">TOP</div>
+        <div class="flex-1 flex justify-center items-center">MIDDLE</div>
+        <div class="flex-1 flex justify-center items-end">BOTTOM</div>
+      </div>
+    </article>
+    <aside class="chrome chrome-context -col -fixed min-w-48 bg-gray-800 border-r border-gray-900">
+      <div class="border-b">
+
+      </div>
+      <div class="chrome">
+        <button type="button"
+            id="AppSidebarToggleButton"
+            class="flex items-center justify-end h-10 w-full p-2 hover:bg-gray-300 font-mono text-sm italic"
+            aria-controls="AppSidebar"
+            aria-expanded="<%= get_app_sidebar_expanded ? 'true' : 'false' %>"
+            aria-label="<%= get_app_sidebar_expanded ? 'Collapse sidebar' : 'Expand sidebar' %>"
+            data-target="app-sidebar.button"
+            data-action="app-sidebar#toggleNavigation">
+          <span class="mr-2 whitespace-no-wrap">Collapse sidebar</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="angle-double-right" class="h-4 w-4">
+            <path d="M5.95 8.064L1.707 3.821a1 1 0 0 1 1.414-1.414l4.95 4.95a1 1 0 0 1 0 1.414l-4.95 4.95a1 1 0 0 1-1.414-1.414L5.95 8.064zm6 0L7.707 3.821a1 1 0 0 1 1.414-1.414l4.95 4.95a1 1 0 0 1 0 1.414l-4.95 4.95a1 1 0 0 1-1.414-1.414l4.243-4.243z" fill-rule="evenodd"/>
+          </svg>
+        </button>
+      </div>
+    </aside>
+  </main>
+</body>
+</html>

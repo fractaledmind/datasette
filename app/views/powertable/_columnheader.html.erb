@@ -1,0 +1,55 @@
+<%# parameters:
+  attribute String (required)
+  label String (required)
+  attributes Hash (optional)
+%>
+
+<%
+  def current_sort_direction_for(attribute:)
+    if sort_params.key?(:attribute) && sort_params.key?(:direction) && sort_params[:attribute] == attribute.to_s
+      sort_params[:direction]
+    else
+      sort_params[attribute]
+    end
+  end
+
+  def next_sort_direction_for(attribute:)
+    next_sort_direction_mapping = {
+      'ascending' => 'descending',
+      'descending' => 'ascending',
+      'asc' => 'descending',
+      'desc' => 'ascending',
+      nil => 'ascending'
+    }
+
+    next_sort_direction_mapping[current_sort_direction_for(attribute: attribute)]
+  end
+
+  def aria_sort_direction_for(attribute:)
+    aria_sort_direction_mapping = {
+      'ascending' => 'ascending',
+      'descending' => 'descending',
+      'asc' => 'ascending',
+      'desc' => 'descending',
+      nil => 'none'
+    }
+
+    aria_sort_direction_mapping[current_sort_direction_for(attribute: attribute)]
+  end
+
+  default_attributes = {
+    role: 'columnheader',
+    scope: 'col',
+    'aria-sort': aria_sort_direction_for(attribute: attribute),
+  }
+  attributes ||= { class: 'text-left' }
+%>
+
+<%= content_tag(:th, default_attributes.merge(attributes)) do %>
+  <%= link_to(url_for(sort: { attribute => next_sort_direction_for(attribute: attribute) }),
+              'aria-label': "sort by '#{ attribute }' in #{ next_sort_direction_for(attribute: attribute) } order") do %>
+    <small class="text-uppercase font-weight-bold">
+      <%= label %>
+    </small>
+  <% end %>
+<% end %>

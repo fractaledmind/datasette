@@ -1,0 +1,127 @@
+.chrome-context {
+  display: flex;
+  margin: 0;
+
+  > :not(.chrome) { flex: 1 0 auto }
+  > .chrome       { flex: 0 0 auto }
+}
+.chrome-context {
+  &.-col { flex-direction: column }
+
+  &.-row { flex-direction: row }
+  &.-row > :not(.chrome) { flex: 1 1 auto }
+
+  &.-fixed { overflow: hidden }
+  &.-fixed > :not(.chrome) {
+    flex: 1 1 auto;
+    overflow-y: auto
+  }
+  &.-fixed> .chrome {
+    flex: 0 0 auto;
+    z-index: 1;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .sm\:.chrome-context {
+    display: flex;
+    margin: 0;
+
+    > :not(.chrome) { flex: 1 0 auto }
+    > .chrome       { flex: 0 0 auto }
+  }
+  .chrome-context {
+    &.sm\:-col { flex-direction: column }
+
+    &.sm\:-row { flex-direction: row }
+    &.sm\:-row > :not(.chrome) { flex: 1 1 auto }
+
+    &.sm\:-fixed { overflow: hidden }
+    &.sm\:-fixed > :not(.chrome) {
+      flex: 1 1 auto;
+      overflow-y: auto
+    }
+    &.sm\:-fixed> .chrome {
+      flex: 0 0 auto;
+      z-index: 1;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .md\:.chrome-context {
+    display: flex;
+    margin: 0;
+
+    > :not(.chrome) { flex: 1 0 auto }
+    > .chrome       { flex: 0 0 auto }
+  }
+  .chrome-context {
+    &.md\:-col { flex-direction: column }
+
+    &.md\:-row { flex-direction: row }
+    &.md\:-row > :not(.chrome) { flex: 1 1 auto }
+
+    &.md\:-fixed { overflow: hidden }
+    &.md\:-fixed > :not(.chrome) {
+      flex: 1 1 auto;
+      overflow-y: auto
+    }
+    &.md\:-fixed> .chrome {
+      flex: 0 0 auto;
+      z-index: 1;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .lg\:.chrome-context {
+    display: flex;
+    margin: 0;
+
+    > :not(.chrome) { flex: 1 0 auto }
+    > .chrome       { flex: 0 0 auto }
+  }
+  .chrome-context {
+    &.lg\:-col { flex-direction: column }
+
+    &.lg\:-row { flex-direction: row }
+    &.lg\:-row > :not(.chrome) { flex: 1 1 auto }
+
+    &.lg\:-fixed { overflow: hidden }
+    &.lg\:-fixed > :not(.chrome) {
+      flex: 1 1 auto;
+      overflow-y: auto
+    }
+    &.lg\:-fixed> .chrome {
+      flex: 0 0 auto;
+      z-index: 1;
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .xl\:.chrome-context {
+    display: flex;
+    margin: 0;
+
+    > :not(.chrome) { flex: 1 0 auto }
+    > .chrome       { flex: 0 0 auto }
+  }
+  .chrome-context {
+    &.xl\:-col { flex-direction: column }
+
+    &.xl\:-row { flex-direction: row }
+    &.xl\:-row > :not(.chrome) { flex: 1 1 auto }
+
+    &.xl\:-fixed { overflow: hidden }
+    &.xl\:-fixed > :not(.chrome) {
+      flex: 1 1 auto;
+      overflow-y: auto
+    }
+    &.xl\:-fixed> .chrome {
+      flex: 0 0 auto;
+      z-index: 1;
+    }
+  }
+}
